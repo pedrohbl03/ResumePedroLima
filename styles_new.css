@@ -1,0 +1,227 @@
+/* Utilities */
+:root {
+  --floralwhite-color: #FFFFFF;
+  --grey-color: #3C3C3C;
+  --gamboge-color: #6CD0DB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+a{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin: 0;
+}
+
+.color-blue{
+  color: var(--gamboge-color);
+}
+
+.bg-blue{
+  background: var(--gamboge-color) !important;
+}
+
+.color-gray{
+  color: var(--grey-color);
+}
+
+.color-white{
+  color: var(--floralwhite-color);
+}
+
+
+.section-info-title {
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.section-info-title.dark {
+  border-color: var(--gamboge-color);
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: var(--grey-color);
+  display: inline-block;
+  margin: 0 3px;
+}
+
+/* End of utilities */
+
+#CVWrapper {
+  position: absolute;
+  width: 60vw;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding-bottom: 10px;
+
+}
+
+#CVTableContainer {
+  display: table;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: var(--floralwhite-color);
+}
+
+
+/*#region SideInfo */
+#CVWrapper #SideInfoWrapper {
+  display: table-cell;
+  width: 35%;
+  background-color: var(--grey-color);
+  color: var(--floralwhite-color);
+  padding: 50px 0;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#SideInfoWrapper #Profile {
+  text-align: center;
+  border-bottom: 3px solid var(--gamboge-color);
+}
+
+.profile-description {
+  text-align: justify;
+}
+
+#SideInfoWrapper #Profile .profile-image{
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid var(--gamboge-color);
+}
+
+
+/*Skills Area*/
+#Skills #TecnicalSkills {
+  margin-bottom: 10%;
+}
+
+
+.tech-skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#skills #TecnicalSkills p{
+  width: auto;
+  max-width: 50%;
+  padding: 0 10px 0 0
+}
+
+
+  /* skills tecnical progress (HTML E CSS, MARKETING, HARDWARE */
+
+#skills #TecnicalSkills #progressBarTec-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 30%, #ffffff 30%);
+}
+
+#skills #TecnicalSkills #progressBarTec-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 50%, #ffffff 50%);
+}
+
+#skills #TecnicalSkills #progressBarTec-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 80%, #ffffff 80%);
+}
+
+
+ /* Personality Skills Preogress (Proativdade, Comunicativo, etc. ) */
+
+#skills #PersonalitySkills #progressBarPers-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 70%, #ffffff 70%);
+}
+
+#skills #PersonalitySkills #progressBarPers-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 90%, #ffffff 90%);
+}
+
+#skills #PersonalitySkills #progressBarPers-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 95%, #ffffff 95%);
+}
+
+
+/* Social Network Area */
+#socialNetwork a:link,
+:visited {
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+#socialNetwork .linkedinimg {
+  position: relative;
+  top: 5px;
+}
+
+#socialNetwork .facebookimg {
+  position: relative;
+  top: 5px;
+
+}
+
+#socialNetwork .instagramimg {
+  position: relative;
+  top: 5px;
+
+}
+
+
+/*#region MainContentWrapper */
+
+#CVWrapper #MainContentWrapper {
+  display: table-cell;
+  width: 65%;
+  left: 35%;
+  padding: 30px 50px 30px 50px;
+  vertical-align: top;
+}
+
+
+
+
+
